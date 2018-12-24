@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<accessibility-service xmlns:android="http://schemas.android.com/apk/res/android"
+android:accessibilityEventTypes="typeNotificationStateChanged|typeWindowStateChanged|typeWindowContentChanged"
+android:accessibilityFeedbackType="feedbackGeneric"
+android:accessibilityFlags="flagDefault"
+android:canRetrieveWindowContent="true"
+android:description="@string/app_name"
+android:notificationTimeout="100"
+android:packageNames= "com.coloros.safecenter,com.bbk.account,com.android.packageinstaller,com.sohu.inputmethod.sogou.vivo,com.vivo.upslide" />
+
+<!--packageNames 指定响应某个应用的事件，不填表示全部指定-->
